@@ -4,10 +4,10 @@ function NavigationBar() {
     return (
         <div className="nav">
             <hr/>
-            <span>
+            <span style={{borderRight: '1px solid black'}}>
                 <Link className="nav-links" to="./">HOME</Link>
             </span>
-            <span>
+            <span style={{borderRight: '1px solid black'}}>
                 <Link className="nav-links" to="./about">ABOUT</Link>
             </span>
             <span className="dropdown">

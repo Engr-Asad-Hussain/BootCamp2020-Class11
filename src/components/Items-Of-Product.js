@@ -35,6 +35,7 @@ function ItemsOfProducts() {
     );
 }
 export default ItemsOfProducts;
+
 /*
 <Link to={`/products/${items[object].name.replace(/ +/g, "-").toLowerCase()}`}>
 $ is the placeholder. It means the item comes in { } will be placed in /products/itemName

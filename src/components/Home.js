@@ -1,5 +1,3 @@
-import react from 'react';
-import logo from '../home.jpeg';
 
 function Home() {
     return (
